@@ -31,7 +31,7 @@ app.get('/kshitiz', async (req, res) => {
 
     `;
 
-    const response = await axios.post('https://yanmaglinte.onrender.com/chat', {
+    const response = await axios.post('https://openchat-ai.onrender.com/chat', {
       prompt: userQuery,
       system: systemMessage,
       conversation: [],
